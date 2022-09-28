@@ -1,0 +1,52 @@
+.contain{
+    margin:0 auto;
+    padding: 8px;
+    width: 1000px;
+    font-family: sans-serif;
+}
+.header{
+    background-color: rgb(255, 88, 27);
+    width: 1000px;
+    position: relative;/* make the logo relation*/
+}
+.logo{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+.main{
+    text-align: center; /*center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box.flex {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    text-align: center;
+  }
+.dog{
+    /* flex: 1; */
+    align-self: center;
+    /* padding-right: 0;     */
+}
+.cat{
+    /* flex: 1; */
+    /* padding: 40px; */
+}
+.sale{
+    /* flex: 1; */
+} 
+.footer{   
+}
+.news{
+    direction: rtl;
+    display: flex;
+    justify-content: space-around;
+
+}
+.cat{flex: 1;}
+.dog{flex: 1;}
+
